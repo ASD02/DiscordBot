@@ -58,11 +58,9 @@ client.on('message', async message => {
             const dispatcher = connection.play('audio.mp3');
 
             dispatcher.on('start', () => {
-                console.log('audio.mp3 is now playing!');
             });
 
             dispatcher.on('finish', () => {
-                console.log('audio.mp3 has finished playing!');
                 connection.disconnect();
             });
         }
@@ -76,11 +74,9 @@ client.on('message', async message => {
             const dispatcher = connection.play('Aasish.mp3');
 
             dispatcher.on('start', () => {
-                console.log('audio.mp3 is now playing!');
             });
 
             dispatcher.on('finish', () => {
-                console.log('audio.mp3 has finished playing!');
                 connection.disconnect();
             });
         }
@@ -94,11 +90,9 @@ client.on('message', async message => {
             const dispatcher = connection.play('Support.mp3');
 
             dispatcher.on('start', () => {
-                console.log('audio.mp3 is now playing!');
             });
 
             dispatcher.on('finish', () => {
-                console.log('audio.mp3 has finished playing!');
                 connection.disconnect();
             });
         }
@@ -112,11 +106,9 @@ client.on('message', async message => {
             const dispatcher = connection.play('akshat.mp3');
 
             dispatcher.on('start', () => {
-                console.log('audio.mp3 is now playing!');
             });
 
             dispatcher.on('finish', () => {
-                console.log('audio.mp3 has finished playing!');
                 connection.disconnect();
             });
         }
@@ -130,11 +122,9 @@ client.on('message', async message => {
             const dispatcher = connection.play('chick.mp3');
 
             dispatcher.on('start', () => {
-                console.log('audio.mp3 is now playing!');
             });
 
             dispatcher.on('finish', () => {
-                console.log('audio.mp3 has finished playing!');
                 connection.disconnect();
             });
         }
@@ -149,11 +139,9 @@ client.on('message', async message => {
             const dispatcher = connection.play('step.mp3');
 
             dispatcher.on('start', () => {
-                console.log('audio.mp3 is now playing!');
             });
 
             dispatcher.on('finish', () => {
-                console.log('audio.mp3 has finished playing!');
                 connection.disconnect();
             });
         }
@@ -167,11 +155,9 @@ client.on('message', async message => {
             const dispatcher = connection.play('warframe.mp3');
 
             dispatcher.on('start', () => {
-                console.log('audio.mp3 is now playing!');
             });
 
             dispatcher.on('finish', () => {
-                console.log('audio.mp3 has finished playing!');
                 connection.disconnect();
             });
         }
@@ -185,11 +171,10 @@ client.on('message', async message => {
             const dispatcher = connection.play('rahuta.mp3');
 
             dispatcher.on('start', () => {
-                console.log('audio.mp3 is now playing!');
             });
 
             dispatcher.on('finish', () => {
-                console.log('audio.mp3 has finished playing!');
+
                 connection.disconnect();
             });
         }
@@ -197,4 +182,4 @@ client.on('message', async message => {
 });
 
 
-client.login('');
+client.login(''); //enter your discord bot's client id here.
